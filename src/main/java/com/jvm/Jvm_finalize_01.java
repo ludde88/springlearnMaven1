@@ -25,7 +25,7 @@ public class Jvm_finalize_01 {
             jvm_finalize_01.test1();
         }
 
-        System.out.println("==============================================");
+        System.out.println("================12345==============================");
 
         jvm_finalize_01 = null;
         System.gc();
