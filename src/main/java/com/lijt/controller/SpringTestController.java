@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class SpringTestController {
     @Autowired
     public SpringService springService;
-
+    //testController1
     public void testController1(){
         PersonDao personDao = springService.getPersonDao();
         System.out.println(personDao);
