@@ -11,7 +11,7 @@ public class Test {
   }
 
   public static void main(String[] args){
-    Runnable runnable = new Runnable() {
+    /*Runnable runnable = new Runnable() {
       public void run(){
         ZKDistributedLock lock = null;
         try {
@@ -29,6 +29,6 @@ public class Test {
     for (int i = 0; i < 10; i++) {
       Thread t = new Thread(runnable);
       t.start();
-    }
+    }*/
   }
 }
