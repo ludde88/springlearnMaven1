@@ -28,7 +28,7 @@ public class Test {
     };
     for (int i = 0; i < 10; i++) {
       Thread t = new Thread(runnable);
-      t.start();
+      t.start();  test
     }*/
   }
 }

@@ -20,7 +20,7 @@ import java.util.concurrent.locks.Lock;
 
  public class ZKDistributedLock  {
 
-    /*private ZooKeeper zk = null;
+    /*private ZooKeeper zk = null;  test
     private String ROOT_LOCK = "/locks"; // 根节点
     private String lockName; // 竞争的资源
     private String WAIT_LOCK;  // 等待的前一个锁
