@@ -9,6 +9,7 @@ public class CarFactory {
         }else if(carName.equals("Old")){
             car = new OldCar();
         }
+        //return car1;
         return car;
     }
 }
